@@ -1,0 +1,148 @@
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <input type="text" placeholder="New Customer Category" id="new-customer-category">
+  <button id="add-category-btn">Add</button>
+
+  <div class="customer-category-header label-text">
+    <div class="flex-two title">
+      Customer Categories
+    </div>
+    <div class="flex-one hide">
+      <div class="actions">
+        <div>
+          Pain
+        </div>
+        <div>
+          Access
+        </div>
+        <div>
+          Opportunity
+        </div>
+        <div>
+          Status
+        </div>
+      </div>      
+    </div>
+  </div>
+<!--   <div class="customer-category">
+    <div class="customer-category-header">
+      <div class="customer-category-name">
+        Entrepreneurs
+      </div>
+      <div class="actions">
+        <div>
+          &nbsp;
+        </div>
+        <div>
+          &nbsp;
+        </div>
+        <div>
+          &nbsp;
+        </div>
+        <div>
+          &nbsp;
+        </div>
+      </div>
+    </div>
+    <ul class="customer-segment-list">
+      <li class="customer-segment">
+        <div class="customer-problem">
+          Customer Segment has a problem developing new product ideas
+        </div>
+        <div class="actions">
+          <div>
+            Pain
+          </div>
+          <div>
+            Access
+          </div>
+          <div>
+            Opportunity
+          </div>
+          <div>
+            Status
+          </div>
+        </div>
+      </li>
+    </ul> 
+  </div>  -->
+
+  <div class="customer-category">
+    <div class="flex-one">
+      <ul id="customer-category-list">
+        <li id="category-name"> 
+          <input type="text" placeholder="Working Professionals" id="customer-category">
+          <div id="add-segment">
+            <a href="#">Add Segment</a>
+          </div>
+          
+          <ul id="customer-segment-list">
+
+            <li id="customer-segment">
+              <div class="flex-two" id="customer-problem">
+                <input type="text" placeholder="Suburban low-income professionals" id="new-customer-segment">
+                <select id="styled">
+                  <option value="" selected disabled hidden>has a problem</option>
+                  <option selected="selected" value="problem">has a problem</option>
+                  <option value="need">has a need to</option>
+                  <option value="pay">will pay for</option>
+                  <option value="convert">will convert</option>
+                  <option value="satisfy">will be satisfied with</option>
+                </select>    
+                <input type="text" placeholder="getting reliable transportation" id="new-problem">            
+              </div>
+              <div class="flex-one">
+                <div class="actions">
+                  <div>
+                    <span class="mobile label-text">Pain&nbsp;</span>
+                    <select id="styled">
+                      <option value="" selected disabled hidden>0</option>
+                      <option value="nil">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </div>
+                  <div>
+                    <span class="mobile label-text">Access&nbsp;</span>
+                    <select id="styled">
+                      <option value="" selected disabled hidden>0</option>
+                      <option value="nil">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </div>
+                  <div>
+                    <span class="mobile label-text">Opportunity:&nbsp;</span>
+                    0
+                  </div>
+                  <div>
+                    <button><span class="hide">Start Experiment</span> <span class="mobile">Test It</span></button>
+                  </div>
+                </div>      
+              </div>
+            </li>
+
+
+           
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
